@@ -42,7 +42,7 @@ header{
 
 .Box01{
     display: flex;
-    margin: 50px;
+    justify-content: center;
     border: 1px solid grey;
     width: 100px;
 }
