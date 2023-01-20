@@ -22,7 +22,6 @@ header{
 .nav-links a {
     color: white;
     text-decoration: none;
-    letter-spacing: 3px;
     border: 1px solid grey;
     font-family: 'Open Sans', sans-serif;  
 }
@@ -31,56 +30,115 @@ header{
     background-image: url(layout-01-assets/img11.jpg);
     justify-content: center;
     padding: 5rem;
-    width: 180vh;
-    height: 30vw;
+    max-width:100em;
+    max-height: 160em;
 }
 
-.Background_image > div{
-    display: flex;
-    flex-direction:column
+.Background_image > p{
+    color: white;
+}
+
+.Box01,
+.Box02,
+.Box03,
+.Box04,
+.Box05{
+    margin: 50px;
+    margin-left: 500px;
+    background-color: #71798c;
+    
 }
 
 .Box01{
-    display: flex;
-    justify-content: center;
     border: 1px solid grey;
     width: 100px;
+}
+
+.Box01 >h{
+    color: green;
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Box01 p{
+    font-size: small;
 }
 
 .Box02{
-    display: flex;
-    margin: 50px;
     border: 1px solid grey;
     width: 100px;
+}
+
+.Box02 >h{
+    color: blue;
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Box02>p{
+    font-size: small;
 }
 
 .Box03{
-    display: flex;
-    margin: 50px;
     border: 1px solid grey;
     width: 100px;
+}
+
+.Box03>h{
+    color: brown;
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Box03>p{
+    font-size: small;
 }
 
 .Box04{
-    display: flex;
-    margin: 50px;
     border: 1px solid grey;
     width: 100px;
 }
 
+.Box04>h{
+    color: #d6e2ff;
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Box04>p{
+    font-size: small;
+}
+
 .Box05{
-    display: flex;
-    margin: 50px;
     border: 1px solid grey;
     width: 100px;
-  }
+}
 
-  .Box06{
+.Box05>h{
+    color: #d6e2ff;
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Box05>p{
+    font-size: small;
+}
+
+.Box06{
     background-image: url(layout-01-assets/img13.jpg);
-    max-width: 120vh;
+    max-width: 210vh;
     height: 30vw;
-  }
+}
 
-  footer{
-    background-color: #383E4C
-  }
+footer{
+    background-color: #71798c;
+    color: white;
+}
+
+footer>h{
+    font-size: larger;
+}
+
+footer>p{
+    font-size: smaller;
+}
