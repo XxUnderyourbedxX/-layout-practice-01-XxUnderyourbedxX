@@ -151,6 +151,31 @@ header{
 
 }
 
+.Box07{
+    border: 1px solid grey;
+    width: 100px;
+}
+
+.Box08{
+    border: 1px solid grey;
+    width: 100px;
+}
+
+.Box09{
+    border: 1px solid grey;
+    width: 100px;
+}
+
+.Box10{
+    border: 1px solid grey;
+    width: 100px;
+}
+
+.Box11{
+    border: 1px solid grey;
+    width: 100px;
+}
+
 footer{
     background-color: #71798c;
     color: white;
