@@ -30,8 +30,9 @@ header{
     background-image: url(layout-01-assets/img11.jpg);
     padding: 5rem;
     max-width:210em;
-    max-height: 260vw;
+    height: 700px;
     text-align: center;
+    background-size: cover;
 }
 
 .Background_image > h{
@@ -48,15 +49,15 @@ header{
 .Box03,
 .Box04,
 .Box05{
-
-    background-color: #71798c;
-    flex-wrap: wrap;
+    background-color: #f2f2f2;
+    float: inline-start;
+    margin-bottom: 30px;
     
 }
 
 .Box01{
     border: 1px solid grey;
-    width: 400px;
+    width: 360.5px;
     height: 300px;
 }
 
@@ -72,8 +73,8 @@ header{
 
 .Box02{
     border: 1px solid grey;
-    width: 100px;
-}
+    width: 360.5px;
+    height: 300px;}
 
 .Box02 >h{
     color: blue;
@@ -87,7 +88,8 @@ header{
 
 .Box03{
     border: 1px solid grey;
-    width: 100px;
+    width: 360.5px;
+    height: 300px;
 }
 
 .Box03>h{
@@ -102,11 +104,13 @@ header{
 
 .Box04{
     border: 1px solid grey;
-    width: 100px;
+    width: 555.5px;
+    height: 500px;
 }
 
 .Box04>h{
-    color: #d6e2ff;
+    color: grey;
+    text-align: center;
     font-size: larger;
     font-family: 'Roboto', sans-serif;
 }
@@ -117,11 +121,12 @@ header{
 
 .Box05{
     border: 1px solid grey;
-    width: 100px;
+    width: 555.5px;
+    height: 500px;
 }
 
 .Box05>h{
-    color: #d6e2ff;
+    color: gray;
     font-size: larger;
     font-family: 'Roboto', sans-serif;
 }
@@ -151,41 +156,107 @@ header{
 
 }
 
+.Box7,
+.Box8,
+.Box9,
+.Box10{
+    
+}
+
 .Box07{
     border: 1px solid grey;
-    width: 100px;
+    background-color: #f2f2f2;
+    width: 262px;
+    height: 600px;
+}
+
+.Box07 >h{
+    color: grey;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Box07 >p{
+    font-size: small;
 }
 
 .Box08{
     border: 1px solid grey;
-    width: 100px;
+    background-color: #f2f2f2;
+    width: 262px;
+    height: 600px;
+}
+
+.Box08 >h{
+    color: gray;
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Box08 >p{
+    font-size: small;
 }
 
 .Box09{
     border: 1px solid grey;
-    width: 100px;
+    background-color: #f2f2f2;
+    width: 262px;
+    height: 600px;
+}
+
+.Box09 >h{
+    color: gray;
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Box09 >p{
+    font-size: small;
 }
 
 .Box10{
     border: 1px solid grey;
-    width: 100px;
+    background-color: #f2f2f2;
+    width: 262px;
+    height: 600px;
+}
+
+.Box10 >h{
+    color: gray;
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Box10 >p{
+    font-size: small;
 }
 
 .Box11{
     border: 1px solid grey;
-    width: 100px;
+    background-color: #f2f2f2;
+    width: 57vw;
+    height: 700px;
+}
+
+.Box11 >h{
+    color: gray;
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;
 }
 
 footer{
     background-color: #71798c;
     color: white;
     height: 9rem;
+    text-align: center;
 }
 
 footer>h{
     font-size: xx-large;
     font-weight: 300;
     text-shadow: 20px;
+    text-align: center;
     font-family: 'Roboto', sans-serif;
 }
 
