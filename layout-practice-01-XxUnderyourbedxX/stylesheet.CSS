@@ -48,10 +48,9 @@ header{
 .Box03,
 .Box04,
 .Box05{
-    margin: 50px;
-    margin-left: 500px;
-    margin-right: 500px;
+
     background-color: #71798c;
+    flex-wrap: wrap;
     
 }
 
