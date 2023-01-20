@@ -28,14 +28,19 @@ header{
 
 .Background_image{
     background-image: url(layout-01-assets/img11.jpg);
-    justify-content: center;
     padding: 5rem;
-    max-width:100em;
-    max-height: 160em;
+    max-width:210em;
+    max-height: 260vw;
+    text-align: center;
+}
+
+.Background_image > h{
+    color: white;
 }
 
 .Background_image > p{
     color: white;
+    
 }
 
 .Box01,
@@ -45,13 +50,15 @@ header{
 .Box05{
     margin: 50px;
     margin-left: 500px;
+    margin-right: 500px;
     background-color: #71798c;
     
 }
 
 .Box01{
     border: 1px solid grey;
-    width: 100px;
+    width: 400px;
+    height: 300px;
 }
 
 .Box01 >h{
@@ -128,17 +135,37 @@ header{
     background-image: url(layout-01-assets/img13.jpg);
     max-width: 210vh;
     height: 30vw;
+    text-align: center;
+}
+
+.Box06 >h{
+    color: white;
+    font-size: xx-large;
+    font-weight: 300;
+    text-shadow: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Box06 >p{
+    color: white;
+    font-size: small;
+
 }
 
 footer{
     background-color: #71798c;
     color: white;
+    height: 9rem;
 }
 
 footer>h{
-    font-size: larger;
+    font-size: xx-large;
+    font-weight: 300;
+    text-shadow: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 footer>p{
     font-size: smaller;
+    text-align: center;
 }
