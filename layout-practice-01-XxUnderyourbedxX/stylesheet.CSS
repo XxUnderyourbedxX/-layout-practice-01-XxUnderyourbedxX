@@ -247,6 +247,13 @@ header{
     font-size: larger;
     font-family: 'Roboto', sans-serif;
 }
+.Form{
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url(layout-01-assets/img14.jpg);
+    background-size: cover;
+    max-width:210em;
+    height: 500px;
+}
 
 footer{
     background-color: #f2f2f2;
