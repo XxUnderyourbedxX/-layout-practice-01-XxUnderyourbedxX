@@ -280,9 +280,15 @@ li{
 
 .Form >p{
     border: 1px solid gray;
-    width: 134px;
+    width: 234px;
     text-align: center;
     background-color: #f2f2f2;
+    opacity: 50%;
+}
+
+.The_Form{
+    display: flex;
+    justify-content: center;
     opacity: 50%;
 }
 
