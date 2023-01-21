@@ -32,10 +32,8 @@ li{
 
 .Background_image{
     background-image: url(layout-01-assets/img11.jpg);
-
-    max-width:210em;
-    height: 700px;
-
+    max-width:100%;
+    height: 35vw;
     background-size: cover;
 }
 
@@ -44,7 +42,7 @@ li{
     justify-content: center;
     color: white;
     text-align: center;
-    padding-top: 7px;
+    padding-top: 230px;
    
 }
 
@@ -54,6 +52,20 @@ li{
     
     
 }
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    margin:2vh 15vw 2vh 15vw;
+}
+
+.Box01,
+.Box02,
+.Box03{
+    height: 460px;
+    width: 360px;
+}
+
 
 .Box01,
 .Box02,
@@ -149,6 +161,7 @@ li{
 .Box06{
     background-image: url(layout-01-assets/img13.jpg);
     background-size: cover;
+    text-shadow: 1px 1px black;
     max-width: 210vh;
     height: 323px;
     padding-top: 115px;
@@ -263,7 +276,7 @@ li{
     border: 1px solid rgb(0, 0, 0);
     background-image: url(layout-01-assets/img14.jpg);
     background-size: cover;
-    max-width:210em;
+    width:100%;
     height: 500px;
 }
 
@@ -279,6 +292,7 @@ li{
 }
 
 .Form >p{
+    padding-top: 10px;
     border: 1px solid gray;
     width: 234px;
     text-align: center;
