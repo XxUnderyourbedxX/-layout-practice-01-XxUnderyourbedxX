@@ -14,33 +14,44 @@ header{
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    justify-content: center;
+    padding-top: 18px;
+}
 
-
+li{
+    margin: 0%;
 }
 
 .nav-links a {
+    margin: 0%;
+    padding: 10px;
     color: white;
     text-decoration: none;
     border: 1px solid grey;
-    font-family: 'Open Sans', sans-serif;  
+    font-family: 'Open Sans', sans-serif;
 }
 
 .Background_image{
     background-image: url(layout-01-assets/img11.jpg);
-    padding: 5rem;
+
     max-width:210em;
     height: 700px;
-    text-align: center;
+
     background-size: cover;
 }
 
 .Background_image > h{
+    display: flex;
+    justify-content: center;
     color: white;
+    text-align: center;
+    padding-top: 7px;
+   
 }
 
 .Background_image > p{
     color: white;
+    text-align: center;
+    
     
 }
 
@@ -246,6 +257,7 @@ header{
     color: gray;
     font-size: larger;
     font-family: 'Roboto', sans-serif;
+    background-size: 9px;
 }
 .Form{
     border: 1px solid rgb(0, 0, 0);
@@ -253,6 +265,25 @@ header{
     background-size: cover;
     max-width:210em;
     height: 500px;
+}
+
+.Form >h{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: x-large;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2em;
+}
+
+.Form >p{
+    border: 1px solid gray;
+    width: 134px;
+    text-align: center;
+    background-color: #f2f2f2;
+    opacity: 50%;
 }
 
 footer{
